@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 import LiveMap from './LiveMap'
 import DeliveryChat from './DeliveryChat'
 import { Loader } from 'lucide-react'
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 
 interface ILocation {
   latitude: number,

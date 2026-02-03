@@ -102,7 +102,6 @@ function UserOrderCard({ order }: { order: IOrder }) {
                         <CreditCard size={16} className='text-green-600' /> Online Payment </div>
                 }
 
-
                 {order.assignedDeliveryBoy && <>
                     <div className='mt-4 bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-center justify-between'>
                         <div className='flex items-center gap-3 text-sm text-gray-700'>
