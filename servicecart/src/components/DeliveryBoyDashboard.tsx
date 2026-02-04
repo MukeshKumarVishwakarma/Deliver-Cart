@@ -148,7 +148,7 @@ function DeliveryBoyDashboard({ earning }: { earning: number }) {
       {
         name: "Today",
         earning,
-        deliveries: earning / 40
+        deliveries: earning/40
       }
     ]
     return (
@@ -164,7 +164,7 @@ function DeliveryBoyDashboard({ earning }: { earning: number }) {
                 <YAxis/>
                 <Tooltip/>
                 <Legend/>
-                <Bar dataKey="earning" name="Earnings (₹)" />
+                <Bar dataKey="earnings" name="Earnings (₹)" />
                 <Bar dataKey="deliveries" name="Deliveries" />
               </BarChart>
             </ResponsiveContainer>
